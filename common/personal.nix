@@ -3,7 +3,7 @@
     description = "Oro";
     shell = pkgs.fish;
     isNormalUser = true;
-    extraGroups = ["wheel" "users" "audio" "video"];
+    extraGroups = ["wheel" "users" "audio" "video" "networkmanager" "podman"];
     uid = 1000;
   };
 
